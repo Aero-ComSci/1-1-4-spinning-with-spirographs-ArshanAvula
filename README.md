@@ -1,3 +1,16 @@
+# START OF MY README
+## Question 1:
+Zero-Itteration conditions are loops that never run and will break. On the other hand, infinite loops run forever as long as the value is true. The main difference between them is that one never runs, and the other always runs. The main similarity is that they are both loops with conditions.
+## Question 2:
+I solved this issue by using .penup() and .goto() to place the turtle at the coordinates (0,0), which is at the middle of any screen. Finally, I used .pendown(), so that the turtle can draw.
+<br>
+![image](https://github.com/user-attachments/assets/d0730280-1339-4218-937a-4092c659d6cb)
+## Questoin 3:
+My Final Product:
+![image](https://github.com/user-attachments/assets/3063d4c3-1562-4f25-8b35-29622daef5f7)
+## Summary of my for loop:
+In my code, the reason I only used one for loop is because I knew how to use .stamp() and .shape() to place squares instantly. Using these two methods, it allowed me to use only one for loop and draw my squares with my turtle (without drawing). However, I understood what it meant to draw the two loops. If I didn't know how to use .stamp() or .shape(), I would have the first loop as the number of squares in a range, just like usual, but instead I would need a for loop inside with a range of 4, to draw each side of the square. I would also have to change the size in that for loop, so that the squares either decrease or increase. Overall, I could have done it both ways, with two for loops and draw the squares with turtle, but I chose to use one for loop and stamp the squares by changing the shape of the turtle and dreacreasing the size and changing color over the range.
+# END OF MY README
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/SkD24yV8)
 # 1.1.4Spirographs
 
