@@ -9,6 +9,8 @@ I solved this issue by using .penup() and .goto() to place the turtle at the coo
 My Final Product:
 ![image](https://github.com/user-attachments/assets/3063d4c3-1562-4f25-8b35-29622daef5f7)
 ## Question 4:
+For the first while loop, the code was given, but I changed the first while loop to run at x < -200, so that it runs towards the -200 value (right side). Then I added another while loop by changing the move x and move y to the opposite values, in this case: -1 and -1. Using these values, I set the two while loops inside two run at y > -100, so that it goes down below that level, and y < 0 to make the line go up at that level.
+![image](https://github.com/user-attachments/assets/34fd9b25-bced-453a-b483-8f0225e3f120)
 ## Question 5:
 ## Question 6:
 My tokenizer works by using .split() for the prompt the user types. It changes the values in the new temporary list created to .lower() versions, and then looks for a word that matches the flower list. If it does, it moves on to find a number in digit form, and then executes the drawings. However, if any of these conditions aren't met, it prints out not available, so that the user can check their spelling or their input if they even wrote a flower. Overall, the tokenization splits the values into a list and checks for a flower type that is in the defined flower list, and then checks for a digit/number for the number of drawings of that flower.
