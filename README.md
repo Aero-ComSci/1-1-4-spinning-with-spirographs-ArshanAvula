@@ -10,6 +10,8 @@ My Final Product:
 ![image](https://github.com/user-attachments/assets/3063d4c3-1562-4f25-8b35-29622daef5f7)
 ## Question 4:
 For the first while loop, the code was given, but I changed the first while loop to run at x < -200, so that it runs towards the -200 value (right side). Then I added another while loop by changing the move x and move y to the opposite values, in this case: -1 and -1. Using these values, I set the two while loops inside two run at y > -100, so that it goes down below that level, and y < 0 to make the line go up at that level.
+<br>
+Screenshot of Code:
 ![image](https://github.com/user-attachments/assets/34fd9b25-bced-453a-b483-8f0225e3f120)
 ## Question 5:
 ## Question 6:
