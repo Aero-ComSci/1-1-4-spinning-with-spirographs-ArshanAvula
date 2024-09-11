@@ -5,9 +5,13 @@ Zero-Itteration conditions are loops that never run and will break. On the other
 I solved this issue by using .penup() and .goto() to place the turtle at the coordinates (0,0), which is at the middle of any screen. Finally, I used .pendown(), so that the turtle can draw.
 <br>
 ![image](https://github.com/user-attachments/assets/d0730280-1339-4218-937a-4092c659d6cb)
-## Questoin 3:
+## Question 3:
 My Final Product:
 ![image](https://github.com/user-attachments/assets/3063d4c3-1562-4f25-8b35-29622daef5f7)
+# Question 4:
+# Question 5:
+# Question 6:
+# Question 7:
 ## Summary of my for loop:
 In my code, the reason I only used one for loop is because I knew how to use .stamp() and .shape() to place squares instantly. Using these two methods, it allowed me to use only one for loop and draw my squares with my turtle (without drawing). However, I understood what it meant to draw the two loops. If I didn't know how to use .stamp() or .shape(), I would have the first loop as the number of squares in a range, just like usual, but instead I would need a for loop inside with a range of 4, to draw each side of the square. I would also have to change the size in that for loop, so that the squares either decrease or increase. Overall, I could have done it both ways, with two for loops and draw the squares with turtle, but I chose to use one for loop and stamp the squares by changing the shape of the turtle and dreacreasing the size and changing color over the range.
 # END OF MY README
@@ -50,6 +54,3 @@ Use the forward() and right() methods to draw the sides of the squares.
 5. Answer to step 21
 6. Insert a screenshot or picture of the algorith you used for your tokenizer on the previous activity.
 7. Give an example of an undecidable problem, attach code.
-   
-
-
