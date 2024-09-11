@@ -11,6 +11,10 @@ My Final Product:
 # Question 4:
 # Question 5:
 # Question 6:
+My tokenizer works by using .split() for the prompt the user types. It changes the values in the new temporary list created to .lower() versions, and then looks for a word that matches the flower list. If it does, it moves on to find a number in digit form, and then executes the drawings. However, if any of these conditions aren't met, it prints out not available, so that the user can check their spelling or their input if they even wrote a flower. Overall, the tokenization splits the values into a list and checks for a flower type that is in the defined flower list, and then checks for a digit/number for the number of drawings of that flower.
+<br>
+Screenshot of Code:
+![image](https://github.com/user-attachments/assets/321651fa-0ccc-427a-bc55-bc72b437d7e8)
 # Question 7:
 ## Summary of my for loop:
 In my code, the reason I only used one for loop is because I knew how to use .stamp() and .shape() to place squares instantly. Using these two methods, it allowed me to use only one for loop and draw my squares with my turtle (without drawing). However, I understood what it meant to draw the two loops. If I didn't know how to use .stamp() or .shape(), I would have the first loop as the number of squares in a range, just like usual, but instead I would need a for loop inside with a range of 4, to draw each side of the square. I would also have to change the size in that for loop, so that the squares either decrease or increase. Overall, I could have done it both ways, with two for loops and draw the squares with turtle, but I chose to use one for loop and stamp the squares by changing the shape of the turtle and dreacreasing the size and changing color over the range.
