@@ -14,15 +14,23 @@ For the first while loop, the code was given, but I changed the first while loop
 Screenshot of Code:
 ![image](https://github.com/user-attachments/assets/34fd9b25-bced-453a-b483-8f0225e3f120)
 ## Question 5:
+The answer to step 21 is that the flow chart represents the program where we had to modify a zero-iteration condition, so that we can draw five circles.
 ## Question 6:
 My tokenizer works by using .split() for the prompt the user types. It changes the values in the new temporary list created to .lower() versions, and then looks for a word that matches the flower list. If it does, it moves on to find a number in digit form, and then executes the drawings. However, if any of these conditions aren't met, it prints out not available, so that the user can check their spelling or their input if they even wrote a flower. Overall, the tokenization splits the values into a list and checks for a flower type that is in the defined flower list, and then checks for a digit/number for the number of drawings of that flower.
 <br>
 Screenshot of Code:
 ![image](https://github.com/user-attachments/assets/321651fa-0ccc-427a-bc55-bc72b437d7e8)
 ## Question 7:
+Undecidable problems are problems in which no algorithm can fix/solve and providing a predictable output (yes/no answer).
+<br>
+Example:
+![image](https://github.com/user-attachments/assets/b0bde0c7-6bc1-48c3-b315-fe2a042b4e0b)
+<br>
+In this example, the number the user enters is not gaurannteed to be printed by the code, which is an error that can not be solved by an algorithm. (unpredictable result)
 ## Summary of my for loop:
 In my code, the reason I only used one for loop is because I knew how to use .stamp() and .shape() to place squares instantly. Using these two methods, it allowed me to use only one for loop and draw my squares with my turtle (without drawing). However, I understood what it meant to draw the two loops. If I didn't know how to use .stamp() or .shape(), I would have the first loop as the number of squares in a range, just like usual, but instead I would need a for loop inside with a range of 4, to draw each side of the square. I would also have to change the size in that for loop, so that the squares either decrease or increase. Overall, I could have done it both ways, with two for loops and draw the squares with turtle, but I chose to use one for loop and stamp the squares by changing the shape of the turtle and dreacreasing the size and changing color over the range.
 # END OF MY README
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/SkD24yV8)
 # 1.1.4Spirographs
 
