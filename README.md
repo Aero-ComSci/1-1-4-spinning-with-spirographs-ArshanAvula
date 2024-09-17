@@ -2,9 +2,9 @@
 ## Question 1:
 Zero-Itteration conditions are loops that never run and will break. On the other hand, infinite loops run forever as long as the value is true. The main difference between them is that one never runs, and the other always runs. The main similarity is that they are both loops with conditions.
 ## Question 2:
-I solved this issue by using .penup() and .goto() to place the turtle at the coordinates (0,0), which is at the middle of any screen. Finally, I used .pendown(), so that the turtle can draw.
+I solved this issue by creating a for loop to create different parts on the screen to center it at the given distance of 800. (Check comments below for deeper explanation)
 <br>
-![image](https://github.com/user-attachments/assets/d0730280-1339-4218-937a-4092c659d6cb)
+![image](https://github.com/user-attachments/assets/11f33eff-eb33-4da5-bea1-705f1a71cca2)
 ## Question 3:
 My Final Product:
 ![image](https://github.com/user-attachments/assets/3063d4c3-1562-4f25-8b35-29622daef5f7)
